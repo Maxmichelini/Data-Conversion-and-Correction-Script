@@ -71,7 +71,7 @@ correction_folder = r"C:\Users\...\Corrector"
 2. Run the script from your terminal or IDE:
 
 ```bash
-python Dat_ReaderAcc.py
+python Dat_Reader_Corrector.py
 ```
 
 3. Check the output folder for the converted and corrected `.csv` files.
