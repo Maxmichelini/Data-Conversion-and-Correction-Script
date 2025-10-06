@@ -19,9 +19,9 @@ Make sure your folders are organized as follows:
 
 ```
 📂 Desktop
- ┣ 📂 File di base Capitano       # folder containing the original .dat files
- ┣ 📂 Correttore                  # folder containing correction files (.csv or .dat)
- ┗ 📂 Risultati Capitano          # folder where corrected CSVs will be saved
+ ┣ 📂 Base files       # folder containing the original .dat files
+ ┣ 📂 Corrector        # folder containing correction files (.csv or .dat)
+ ┗ 📂 Results          # folder where corrected CSVs will be saved
 ```
 
 ---
@@ -63,15 +63,15 @@ pip install numpy pandas
 1. Edit the folder paths at the beginning of the script:
 
 ```python
-input_folder = r"C:\Users\massi\Desktop\File di base Capitano"
-output_folder = r"C:\Users\massi\Desktop\Risultati Capitano"
-correction_folder = r"C:\Users\massi\Desktop\Correttore"
+input_folder = r"C:\Users\...\Base Files"
+output_folder = r"C:\Users\...\Results"
+correction_folder = r"C:\Users\...\Corrector"
 ```
 
 2. Run the script from your terminal or IDE:
 
 ```bash
-python convert_and_correct.py
+python Dat_ReaderAcc.py
 ```
 
 3. Check the output folder for the converted and corrected `.csv` files.
