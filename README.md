@@ -114,6 +114,5 @@ time,accX,accY,accZ
 
 ## ✍️ Author
 
-**Developed by:** *Massimiliano [Surname]*  
+**Developed by:** *Alessandro Gianluca Cazzaniga, Massimiliano Michelini, Riccardo Sibilia*  
 **Purpose:** Data conversion and correction for sensor-based motion or impact analysis.  
-**Version:** 1.0  
