@@ -1,6 +1,6 @@
 # Data-Conversion-and-Correction-Script
 
-## 🎯 Purpose
+##  Purpose
 
 This Python script automates the process of:
 1. **Reading and converting** binary `.dat` files from STMicroelectronics sensors (accelerometers, microphones, magnetometers, etc.) into human-readable `.csv` format;  
@@ -26,7 +26,7 @@ Make sure your folders are organized as follows:
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 For each `.dat` file in the input folder, the script performs these steps:
 
@@ -48,7 +48,7 @@ For each `.dat` file in the input folder, the script performs these steps:
 
 ---
 
-## 🧩 Dependencies
+##  Dependencies
 
 The script only relies on standard Python libraries:
 
@@ -58,7 +58,7 @@ pip install numpy pandas
 
 ---
 
-## 🖥️ Execution
+##  Execution
 
 1. Edit the folder paths at the beginning of the script:
 
@@ -78,7 +78,7 @@ python Dat_Reader_Corrector.py
 
 ---
 
-## 📊 Supported Sensors
+##  Supported Sensors
 
 | File | Sensor | Sampling rate | Conversion | Final units |
 |------|---------|----------------|-------------|--------------|
@@ -90,7 +90,7 @@ python Dat_Reader_Corrector.py
 
 ---
 
-## 🧠 Additional Notes
+##  Additional Notes
 
 - `.dat` files are interpreted as 16-bit integer arrays (`int16`, `<i2`).
 - Conversion coefficients follow **official STMicroelectronics sensitivity constants**.
@@ -99,7 +99,7 @@ python Dat_Reader_Corrector.py
 
 ---
 
-## ✅ Example Output
+##  Example Output
 
 Example of a converted accelerometer CSV:
 
@@ -112,7 +112,7 @@ time,accX,accY,accZ
 
 ---
 
-## ✍️ Author
+##  Author
 
 **Developed by:** *Alessandro Gianluca Cazzaniga, Massimiliano Michelini, Riccardo Sibilia*  
 **Purpose:** Data conversion and correction for sensor-based motion or impact analysis.  
