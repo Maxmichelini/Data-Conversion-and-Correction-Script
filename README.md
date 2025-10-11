@@ -32,7 +32,7 @@ For each `.dat` file in the input folder, the script performs the following step
 
 1. **File Parsing**
     Each sensor type (`iis2dlpc_acc.dat`, `iis3dwb_acc.dat`, `iis2iclx_acc.dat`, `imp23absu_mic.dat`, `iis2mdc_mag.dat`),
-    accelerometer_2D, accelerometer_3D, accelerometer_6Axies, microphone and magnetometer are handled with theyr specific:
+    corresponding respectively to accelerometer_2D, accelerometer_3D, accelerometer_6Axies, microphone and magnetometer is handled with its specific:
      - Sampling rate;
      - Sensitivity coefficient ([g] or [Pa] per [LSB]);
      - Conversion from raw data to physical units ([m/s²], [Pa], [mG]);
