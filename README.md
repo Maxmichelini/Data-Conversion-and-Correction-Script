@@ -39,7 +39,7 @@ For each `.dat` file in the input folder, the script performs the following step
      - Filterinf process that remove unrealistic or saturated values.
 
 3. **Correction Application**
-    - The script looks for a correction file in the `correction_folder`:
+   - The script looks for a correction file in the `correction_folder`:
      - If it finds a `.csv` or `.dat` file, with the same name as the sensors that must be converted, it **subtracts** the correction vectors (X, Y, Z) from the original data.
      - It automatically recognizes equivalent column names (e.g. `accX`, `AccX`, `X_g`, etc.).
      - If no compatible correction is found, the original data are kept unchanged.
