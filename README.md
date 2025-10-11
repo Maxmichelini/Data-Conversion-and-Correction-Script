@@ -31,7 +31,7 @@ Make sure your folders are organized as follows:
 For each `.dat` file in the input folder, the script performs the following steps:
 
 1. **File Parsing**
-    Each sensor type (`iis2dlpc_acc.dat`, `iis3dwb_acc.dat`, `iis2iclx_acc.dat`, `imp23absu_mic.dat`, `iis2mdc_mag.dat`),
+    - Each sensor type (`iis2dlpc_acc.dat`, `iis3dwb_acc.dat`, `iis2iclx_acc.dat`, `imp23absu_mic.dat`, `iis2mdc_mag.dat`),
     corresponding respectively to accelerometer_2D, accelerometer_3D, accelerometer_6Axies, microphone and magnetometer is handled with its specific:
      - Sampling rate;
      - Sensitivity coefficient ([g] or [Pa] per [LSB]);
@@ -39,13 +39,13 @@ For each `.dat` file in the input folder, the script performs the following step
      - Filterinf process that remove unrealistic or saturated values.
 
 3. **Correction Application**
-    The script looks for a correction file in the `correction_folder`:
+    - The script looks for a correction file in the `correction_folder`:
      - If it finds a `.csv` or `.dat` file, with the same name as the sensors that must be converted, it **subtracts** the correction vectors (X, Y, Z) from the original data.
      - It automatically recognizes equivalent column names (e.g. `accX`, `AccX`, `X_g`, etc.).
      - If no compatible correction is found, the original data are kept unchanged.
 
 4. **Data Export**
-    The corrected data are saved as `.csv` in the `output_folder`, keeping the same filename as the original `.dat`.
+   - The corrected data are saved as `.csv` in the `output_folder`, keeping the same filename as the original `.dat`.
 
 ---
 
