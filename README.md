@@ -13,7 +13,7 @@ In short:
 
 ---
 
-##  Folder Structure
+###  Folder Structure
 
 Make sure your folders are organized as follows:
 
@@ -26,7 +26,7 @@ Make sure your folders are organized as follows:
 
 ---
 
-##  How It Works
+###  How It Works
 
 For each `.dat` file in the input folder, the script performs the following steps:
 
@@ -49,7 +49,7 @@ For each `.dat` file in the input folder, the script performs the following step
 
 ---
 
-##  Dependencies
+###  Dependencies
 
 The script only relies on standard Python libraries:
 
