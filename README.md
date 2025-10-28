@@ -13,7 +13,7 @@ In short:
 
 ---
 
-###  Folder Structure
+####  Folder Structure
 
 Make sure your folders are organized as follows:
 
